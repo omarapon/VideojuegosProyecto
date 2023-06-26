@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7858542815414056154}
   - component: {fileID: 7858542815414056153}
   - component: {fileID: 7858542815414056152}
-  - component: {fileID: 7858542815414056155}
   - component: {fileID: 7858542815414056157}
   - component: {fileID: 7858542815414056156}
   m_Layer: 0
@@ -109,28 +108,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &7858542815414056155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7858542815414056151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa4e44f06e51c594e8007d227c28f1cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocity: 2
-  velSalto: 5
-  salto: 2
-  veloCorrer: 5
-  Kunai: {fileID: 0}
-  onLadder: 0
-  climbSpeed: 3
-  exitHop: 3
-  isGrounded: 1
-  usingLadder: 0
 --- !u!50 &7858542815414056157
 Rigidbody2D:
   serializedVersion: 4
